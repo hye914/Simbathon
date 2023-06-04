@@ -1,0 +1,286 @@
+.container{
+    max-width: 430px;
+    height: 100vh;
+}
+
+.header{
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+/*------코끼리 배너-------*/
+.logo{
+    height:147px;
+    width:430px;
+    border-bottom: 1px solid green;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logobar{
+    width:100%;
+    height:60%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_left{
+    width:80%;
+    height:100%;
+    background-color: aqua;
+    display: flex;
+}
+
+#logo_image{
+    width:20%;
+    height:100%;
+    background-image: url("/로고.jpg");
+    background-size: cover;
+}
+
+#logo_letter{
+    width:80%;
+    height:100%;
+    background-image: url("/코끼리.jpg");
+    background-size: cover;
+}
+
+.logo_right{
+    width:15%;
+    height:50%;
+    background-color: #FF8859;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px/20px;
+}
+
+.logo_right p{
+    margin:0%;
+    color: white;
+}
+
+/*---->이용가이드<-----*/
+.banner{
+    height:147px;
+    width:430px;
+    border-bottom: 1px solid green;
+}
+
+#banner_image{
+    height:100%;
+    width:100%;
+    background-image: url("/info.jpg");
+    background-size: cover;
+}
+
+/*---->글쓰기 아이콘<-----*/
+.iconbar{
+    width: 430px;
+    height: 130px;
+    border-bottom: 1px solid green;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconbar_box{
+    display:flex;
+    width:70%;
+    height:70%;
+    justify-content: space-between;
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon i{
+    align-items: center;
+    font-size: 25px;
+}
+
+.icon p{
+    font-size: 
+}
+
+.searchbar{
+    width: 430px;
+    height: 130px;
+    background: #ECE3D9B2;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid green;
+}
+
+.searchbar_box{
+    width: 90%;
+    height: 80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.search_input{
+    width: 100%;
+    height: 45%;
+    background: rgba(255,255,255,0.7);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.search_input p{
+    margin:0%;
+}
+
+.searchbar_two{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#search_section{
+    width:45%;
+    height:90%;
+    background: rgba(255,255,255,0.7);
+    border:5px solid #FF8859;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search_track{
+    width:45%;
+    height:90%;
+    background: rgba(255,255,255,0.7);
+    border:5px solid #66C081;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*-----카테고리-----*/
+.categorybar{
+    width:430px;
+    height: 70px;
+    border-bottom: 1px solid green;
+    display: flex;
+    align-items: end;
+}
+
+.category_box{
+    width:90%;
+    height: 50%;
+    margin-right:15%;
+    margin-left:5%;
+    display: flex;
+}
+
+
+#track1{
+    width:40%;
+    height: 100%;
+    background-color:rgba(102, 192, 129, 0.7);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#track1>p{
+    margin:0%;
+}
+
+#track2{
+    width:30%;
+    height: 100%;
+    background-color:rgba(255, 136, 89, 0.7);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#track2>p{
+    margin:0%;
+}
+
+
+
+#track3{
+    width:30%;
+    height: 100%;
+    background-color:#1A4E4C;;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#track3>p{
+    margin:0%;
+    color: white;
+}
+
+
+.showteambar{
+    flex-grow:6;
+    border-bottom: 1px solid green;
+    background-color: rgba(102, 192, 129, 0.7);
+    display: flex;
+    flex-direction: column;
+}
+
+.emptybar{
+    flex-grow:1;
+    border-bottom: 1px solid green;
+}
+
+.showteambar p{
+    margin-left:20px;
+    display: inline
+    margin-top:20px;
+    font-size:20px;
+}
+
+.team_box{
+    width:90%;
+    height:80%;
+    margin-left:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.team1{
+    width:100%;
+    height:30%;
+    background-color:white;
+    border-radius: 10px;
+}
+
+.team2{
+    width:100%;
+    height:30%;
+    background-color:white;
+    border-radius: 10px;
+}
+
+.team3{
+    width:100%;
+    height:30%;
+    background-color:white;
+    border-radius: 10px;
+}
